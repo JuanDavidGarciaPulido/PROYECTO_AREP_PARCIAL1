@@ -16,20 +16,22 @@
 
 3. Ejecutar las clases HttpServerCalculadora y HttpServer. (Hacerlo en dos terminales diferentes puesto que ambas deben correr al tiempo para que funcione el programa)
 ```
-    java -cp target/classes co.edu.escuelaing.arep.app.HttpServerCalculadora
+    java -cp target/classes co.edu.escuelaing.arep.app.ReflexCalculator
 
     java -cp target/classes co.edu.escuelaing.arep.app.HttpServer
 ```
 
 
-![image](https://github.com/user-attachments/assets/be6cdd7a-2259-41af-854c-44f2edbea14c)
+![image](https://github.com/user-attachments/assets/7aeddb2d-1b9b-4916-bcd3-c74b917c9db7)
+
 
 
 
 Opcionalmente también puede correr ambas clases desde su IDE preferido.
 
 
-![image](https://github.com/user-attachments/assets/1e2e92f0-0ecb-4514-866c-d002dc0c86cd)
+![image](https://github.com/user-attachments/assets/129321c5-a928-4293-8767-821e1f0b63a7)
+
 
 ![image](https://github.com/user-attachments/assets/30312450-1cf5-4872-827a-3c98893bc78f)
 
