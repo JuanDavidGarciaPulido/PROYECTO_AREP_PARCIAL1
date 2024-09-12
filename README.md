@@ -20,10 +20,17 @@
 
     java -cp target/classes co.edu.escuelaing.arep.app.HttpServer
 ```
+
+
 ![image](https://github.com/user-attachments/assets/be6cdd7a-2259-41af-854c-44f2edbea14c)
 
+
+
 Opcionalmente también puede correr ambas clases desde su IDE preferido.
+
+
 ![image](https://github.com/user-attachments/assets/1e2e92f0-0ecb-4514-866c-d002dc0c86cd)
+
 ![image](https://github.com/user-attachments/assets/30312450-1cf5-4872-827a-3c98893bc78f)
 
 4. Use su navegador e ingrese a http://localhost:35000/cliente
