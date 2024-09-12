@@ -12,7 +12,7 @@ import java.net.Socket;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-public class HttpServerCalculadora {
+public class ReflexCalculator {
     public static void main(String[] args) throws IOException, URISyntaxException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         ServerSocket serverSocket = null;
         try {
