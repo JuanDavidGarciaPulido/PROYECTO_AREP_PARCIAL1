@@ -3,23 +3,23 @@
 
 ##Ejecutar el programa
 1. Clonar el repositorio.
- ```sh
+ ```
     git clone [https://github.com/JuanDavidGarciaPulido/AREP_LAB4.git](https://github.com/JuanDavidGarciaPulido/PROYECTO_AREP_PARCIAL1.git)
 
     cd PROYECTO_AREP_PARCIAL1
-    ```
+```
 
 2. Compilar el proyecto.
- ```sh
+ ```
     mvn clean install
-    ```
+ ```
 
 3. Ejecutar las clases HttpServerCalculadora y HttpServer. (Hacerlo en dos terminales diferentes puesto que ambas deben correr al tiempo para que funcione el programa)
-```sh
+```
     java -cp target/classes co.edu.escuelaing.arep.app.HttpServerCalculadora
 
     java -cp target/classes co.edu.escuelaing.arep.app.HttpServer
-    ```
+```
 ![image](https://github.com/user-attachments/assets/be6cdd7a-2259-41af-854c-44f2edbea14c)
 
 Opcionalmente también puede correr ambas clases desde su IDE preferido.
