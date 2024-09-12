@@ -14,7 +14,7 @@
     mvn clean install
  ```
 
-3. Ejecutar las clases HttpServerCalculadora y HttpServer. (Hacerlo en dos terminales diferentes puesto que ambas deben correr al tiempo para que funcione el programa)
+3. Ejecutar las clases ReflexCalculator y HttpServer. (Hacerlo en dos terminales diferentes puesto que ambas deben correr al tiempo para que funcione el programa)
 ```
     java -cp target/classes co.edu.escuelaing.arep.app.ReflexCalculator
 
