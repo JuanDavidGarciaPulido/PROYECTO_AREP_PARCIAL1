@@ -4,7 +4,7 @@
 ##Ejecutar el programa
 1. Clonar el repositorio.
  ```
-    git clone [https://github.com/JuanDavidGarciaPulido/AREP_LAB4.git](https://github.com/JuanDavidGarciaPulido/PROYECTO_AREP_PARCIAL1.git)
+    git clone https://github.com/JuanDavidGarciaPulido/PROYECTO_AREP_PARCIAL1.git
 
     cd PROYECTO_AREP_PARCIAL1
 ```
