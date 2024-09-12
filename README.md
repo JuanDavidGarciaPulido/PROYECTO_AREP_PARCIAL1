@@ -34,7 +34,9 @@ Opcionalmente también puede correr ambas clases desde su IDE preferido.
 ![image](https://github.com/user-attachments/assets/30312450-1cf5-4872-827a-3c98893bc78f)
 
 4. Use su navegador e ingrese a http://localhost:35000/cliente
+Allí podrá ingresar dos números (decimales) separados por una coma (Por defecto se dejó el 10.0 y el -5.0) y se le retornará el número mayor. (utilizando el método max de la librería Math de java)
+
 ![image](https://github.com/user-attachments/assets/784e40b9-31cf-4622-9afc-1099a971478d)
-Allí podrá ingresar dos números (decimales) separados por una coma (Por defecto se dejó el 10.0 y el -5.0) y se le retornará el número mayor. (utilizando el método max de la librería Math de java) 
+
 
 
