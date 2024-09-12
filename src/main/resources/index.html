@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Calculadora</h1>
+<form action="/hello">
+    <label for="numbers">Ingrese los dos números separados por una coma:</label><br>
+    <input type="text" id="numbers" name="numbers" value="10.0, -5.0"><br><br>
+    <input type="button" value="Submit" onclick="loadGetMsg()">
+</form>
+<div id="getrespmsg"></div>
+
+<script>
+    function loadGetMsg() {
+        let numbers = document.getElementById("numbers").value;
+        let command = `binaryInvoke(java.lang.Math, max, double, ${numbers.split(',')[0].trim()}, double, ${numbers.split(',')[1].trim()})`;
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            document.getElementById("getrespmsg").innerHTML =
+            this.responseText;
+        }
+        xhttp.open("GET", "http://localhost:35000/consulta?comando=" + command);
+        xhttp.send();
+    }
+</script>
+</body>
+</html>
